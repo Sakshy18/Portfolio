@@ -95,9 +95,17 @@ h3
   
 @media (max-width: 750px) {
     #background-video { display: none; }
-    body {
-      background: url("videos/bgvid.mp4") no-repeat;
+     body {
+      background: url("img/phonebg.jpg") no-repeat;
       background-size: cover;
+    }
+    .header a {
+      float: left;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
     }
 }
 .row {
